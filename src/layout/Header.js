@@ -69,10 +69,10 @@ function Header() {
             </Link>
             <Link
               activeClass="active"
-              to="section1"
+              to="Contact"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-16}
               duration={500}
               onClick={onClick}
             >
