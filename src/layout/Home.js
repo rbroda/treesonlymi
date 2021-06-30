@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../assets/MainPage.png";
+import Trees from "../assets/trees.jpg";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
             bg-cover bg-center bg-fixed bg-no-repeat
           "
           style={{
-            backgroundImage: `url(${Hero})`,
+            backgroundImage: `url(${Trees})`,
           }}
         >
           <div
